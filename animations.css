@@ -1,0 +1,331 @@
+#top{
+    display: flex;
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: aquamarine;
+    border: 2px solid red;
+    border-radius: 14px;
+    margin-top: 0px;
+    margin-left: 0px;
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    animation-name: top;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+#flickering{
+    position: absolute;
+    background-color: none;
+    color: white;
+    display: flex;
+    border: none;
+    margin-top: 23%;
+    margin-left: 40%;
+    align-items: center;
+    justify-content: center;
+    font-size: 74px;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    animation: led;
+    animation-iteration-count: infinite;
+    animation-duration: 0.4s;
+}
+#ss{
+    position: absolute;
+    background-color: none;
+    color:  #03ee77;
+    display: flex;
+    border: none;
+    margin-top: 42%;
+    margin-left: 43%;
+    align-items: center;
+    justify-content: center;
+    font-size: 34px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation: led;
+    animation-iteration-count: infinite;
+    animation-duration: 0.4s;
+}
+@keyframes led {
+    0% {opacity: 1;}
+    20% { opacity: 0.8;}
+    40% {opacity: 0.6;}
+    60% {opacity: 0.4;}
+    80% {opacity: 0.2;}
+    100% {opacity: 0.05;}
+}
+
+div{
+    position: absolute;
+    display: flex;
+    margin: 4px;
+    padding: 2px;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border: 4px solid black;
+    background-color: aqua;
+}
+#container1{
+    animation-name: ajay;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+@keyframes top {
+    0% {background-color: aquamarine;}
+    8% {background-color: rgb(198, 250, 94);}
+    13% {background-color: rgb(250, 214, 94);}
+    20% {background-color: rgb(227, 94, 250);
+    color: black;}
+    30% {background-color: rgb(238, 71, 99);
+    color: bisque;}
+    40% {background-color: rgb(94, 250, 115);
+    color: blue;}
+    50% {background-color: rgb(0, 0, 0);
+    color: rgb(243, 240, 247);}
+    60% {background-color: rgb(28, 57, 223);
+    color: red;}
+    70% {background-color: rgb(248, 30, 15);
+    color: aqua;}
+    80% {background-color: rgb(226, 224, 226);
+    color: black;}
+    90% {background-color: rgb(247, 4, 53);
+    color: bisque;}
+    100% {background-color: rgb(94, 250, 115);
+    color: blue;}
+
+}
+@keyframes ajay {
+    0% {background-color: rgb(198, 250, 94);
+    margin-top: 200px;
+margin-left: 200px;}
+15% {background-color: rgb(231, 24, 69);
+    margin-top: 400px;
+margin-left: 400px;}
+25% {background-color: rgb(250, 204, 77);
+    margin-top: 200px;
+margin-left: 1000px;}
+35% {background-color: rgb(41, 54, 226);
+    margin-top: 150px;
+margin-left: 850px;}
+50% {background-color: rgb(85, 218, 241);
+    margin-top: 600px;
+margin-left: 600px;}
+65% {background-color: rgb(247, 48, 48);
+    margin-top: 200px;
+margin-left: 1200px;}
+75% {background-color: rgb(227, 105, 248);
+    margin-top: 400px;
+margin-left: 900px;}
+85% {background-color: rgb(60, 236, 69);
+    margin-top: 100px;
+margin-left: 700px;}
+100% {background-color: rgb(209, 115, 159);
+    margin-top: 50px;
+margin-left: 0px;}
+}
+#container2{
+    animation-name: sukh;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+@keyframes sukh {
+    0% {background-color: rgb(198, 250, 94);
+    margin-top: 200px;
+margin-left: 200px;}
+15% {background-color: rgb(231, 24, 69);
+    margin-top: 400px;
+margin-left: 600px;}
+25% {background-color: rgb(250, 204, 77);
+    margin-top: 200px;
+margin-left: 1050px;}
+35% {background-color: rgb(41, 54, 226);
+    margin-top: 10px;
+margin-left: 750px;}
+50% {background-color: rgb(85, 218, 241);
+    margin-top: 500px;
+margin-left: 600px;}
+65% {background-color: rgb(247, 48, 48);
+    margin-top: 200px;
+margin-left: 1250px;}
+75% {background-color: rgb(227, 105, 248);
+    margin-top: 400px;
+margin-left: 200px;}
+85% {background-color: rgb(60, 236, 69);
+    margin-top: 100px;
+margin-left: 700px;}
+100% {background-color: rgb(209, 115, 159);
+    margin-top: 150px;
+margin-left: 0px;}
+}
+#container3{
+    animation-name: pratham;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+@keyframes pratham {
+    0% {background-color: rgb(198, 250, 94);
+    margin-top: 500px;
+margin-left: 200px;}
+15% {background-color: rgb(231, 24, 69);
+    margin-top: 600px;
+margin-left: 1400px;}
+25% {background-color: rgb(250, 204, 77);
+    margin-top: 200px;
+margin-left: 100px;}
+35% {background-color: rgb(41, 54, 226);
+    margin-top: 550px;
+margin-left: 450px;}
+50% {background-color: rgb(85, 218, 241);
+    margin-top: 600px;
+margin-left: 600px;}
+65% {background-color: rgb(247, 48, 48);
+    margin-top: 600px;
+margin-left: 100px;}
+75% {background-color: rgb(227, 105, 248);
+    margin-top: 200px;
+margin-left: 900px;}
+85% {background-color: rgb(60, 236, 69);
+    margin-top: 500px;
+margin-left: 100px;}
+100% {background-color: rgb(209, 115, 159);
+    margin-top: 100px;
+margin-left: 0px;}
+}
+#container4{
+    animation-name: ekam;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+@keyframes ekam {
+    0% {background-color: rgb(198, 250, 94);
+    margin-top: 200px;
+margin-left: 1200px;}
+15% {background-color: rgb(231, 24, 69);
+    margin-top: 300px;
+margin-left: 400px;}
+25% {background-color: rgb(250, 204, 77);
+    margin-top: 600px;
+margin-left: 1000px;}
+35% {background-color: rgb(41, 54, 226);
+    margin-top: 350px;
+margin-left: 250px;}
+50% {background-color: rgb(85, 218, 241);
+    margin-top: 600px;
+margin-left: 500px;}
+65% {background-color: rgb(247, 48, 48);
+    margin-top: 400px;
+margin-left: 1200px;}
+75% {background-color: rgb(227, 105, 248);
+    margin-top: 100px;
+margin-left: 900px;}
+85% {background-color: rgb(60, 236, 69);
+    margin-top: 600px;
+margin-left: 700px;}
+100% {background-color: rgb(209, 115, 159);
+    margin-top: 30px;
+margin-left: 0px;}
+}
+#container6{
+    animation-name: bjf;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+@keyframes bjf {
+    0% {background-color: rgb(198, 250, 94);
+    margin-top: 700px;
+margin-left: 1200px;}
+15% {background-color: rgb(231, 24, 69);
+    margin-top: 30px;
+margin-left: 400px;}
+25% {background-color: rgb(250, 204, 77);
+    margin-top: 600px;
+margin-left: 1009px;}
+35% {background-color: rgb(41, 54, 226);
+    margin-top: 350px;
+margin-left: 25px;}
+50% {background-color: rgb(90, 241, 85);
+    margin-top: 669px;
+margin-left: 500px;}
+65% {background-color: rgb(247, 48, 48);
+    margin-top: 190px;
+margin-left: 1200px;}
+75% {background-color: rgb(227, 105, 248);
+    margin-top: 600px;
+margin-left: 900px;}
+85% {background-color: rgb(60, 236, 69);
+    margin-top: 600px;
+margin-left: 0px;}
+100% {background-color: rgb(209, 115, 159);
+    margin-top: 30px;
+margin-left: 0px;}
+}
+#container7{
+    animation-name: pec;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+@keyframes pec {
+    0% {background-color: rgb(198, 250, 94);
+    margin-top: 200px;
+margin-left: 1200px;}
+15% {background-color: rgb(231, 24, 69);
+    margin-top: 300px;
+margin-left: 400px;}
+25% {background-color: rgb(97, 250, 77);
+    margin-top: 600px;
+margin-left: 1000px;}
+35% {background-color: rgb(226, 41, 41);
+    margin-top: 350px;
+margin-left: 250px;}
+50% {background-color: rgb(241, 238, 85);
+    margin-top: 600px;
+margin-left: 500px;}
+65% {background-color: rgb(247, 48, 48);
+    margin-top: 400px;
+margin-left: 1200px;}
+75% {background-color: rgb(248, 134, 105);
+    margin-top: 100px;
+margin-left: 900px;}
+85% {background-color: rgb(60, 236, 69);
+    margin-top: 600px;
+margin-left: 700px;}
+100% {background-color: rgb(115, 209, 193);
+    margin-top: 30px;
+margin-left: 0px;}
+}
+#container5{
+    animation-name: salman;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+@keyframes salman {
+    0% {background-color: rgb(198, 250, 94);
+    margin-top: 200px;
+margin-left: 1090px;}
+15% {background-color: rgb(231, 24, 69);
+    margin-top: 300px;
+margin-left: 40px;}
+25% {background-color: rgb(250, 204, 77);
+    margin-top: 690px;
+margin-left: 1070px;}
+35% {background-color: rgb(41, 54, 226);
+    margin-top: 300px;
+margin-left: 250px;}
+50% {background-color: rgb(85, 218, 241);
+    margin-top: 650px;
+margin-left: 0px;}
+65% {background-color: rgb(247, 48, 48);
+    margin-top: 400px;
+margin-left: 10px;}
+75% {background-color: rgb(227, 105, 248);
+    margin-top: 100px;
+margin-left: 1400px;}
+85% {background-color: rgb(60, 107, 236);
+    margin-top: 200px;
+margin-left: 700px;}
+100% {background-color: rgb(209, 115, 159);
+    margin-top: 30px;
+margin-left: 0px;}
+}
